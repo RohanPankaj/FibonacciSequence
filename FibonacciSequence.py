@@ -10,3 +10,5 @@ def create_sequence(a,b,c): #make Function
 
 create_sequence(1,0,0) #setting values
 
+# Copyrite © Rohan S. Pankaj
+
