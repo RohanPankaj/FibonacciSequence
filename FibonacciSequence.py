@@ -1,16 +1,16 @@
 def create_sequence(a,b,c,): #make Function
-      
-    while a > 0: #while loop created with the conditional that it should run when a is greater than zero (should always be true with given values)
+        print(0)
+        print(1)
         
-        c = a+b 
-        print(c)
-        b = c+a
-        print(b)
-        a = b+c
-        print(a)
       
+        while a > -1: #while loop created with the conditional that it should run when a is greater than zero (should always be true with given values)
+                c=a+b
+                print(c)
+                a=b
+                b=c
+                
 
-create_sequence(1,0,0) #setting values
+create_sequence(0,1,0) #setting values
 #this does not work as it does not inclue 0 or the first 1 in the sequence
 # Copyright 2019 © Rohan S. Pankaj, All rights reserved
 
